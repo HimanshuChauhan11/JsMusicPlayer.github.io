@@ -23,7 +23,7 @@ const songs = [
     artist: "Ed Sheeran",
   },
   {
-    name: "We",
+    name: "we",
     title: "We don't talk",
     artist: "Charlle Puth",
   },
