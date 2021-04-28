@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======================= CSS Link ====================== -->
+    <link rel="stylesheet" href="libs/css/style.css" />
+    <!-- ======================= Font Awesome ================== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="music-container">
+        <h1 id="title">Alone</h1>
+        <h4 id="artist">Marshmellow</h4>
+        <div class="img-container">
+          <img src="libs/img/alone.jpg" alt="" />
+        </div>
+        <audio src="libs/music/alone.mp3"></audio>
+        <div class="progressbar_container" id="progress_container">
+          <div class="progress_duration_meter">
+            <div id="current_time">0:00</div>
+
+            <div id="duration">0:00</div>
+          </div>
+          <div class="progress_div" id="progress_div">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+        <div class="music-controlls">
+          <i class="fas fa-backward" id="pre" title="Previous"></i>
+          <i class="fas fa-play main-button" id="play" title="Previous"></i>
+          <i class="fas fa-forward" id="next" title="Previous"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="libs/js/main.js"></script>
+</html>
